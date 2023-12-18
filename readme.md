@@ -3,7 +3,7 @@
 
 
 ### To Run the Project:
-    -cd into the frontendassessment folder
+    - cd into the frontendassessment folder
     - npm install
     - npm run serve
 
@@ -13,9 +13,9 @@ I faced some difficulties in loading the desktop banner, mobile banner and conte
 
 #### Bonus Exercise:
 
-##### Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.
+#### Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.
 
-###### Answer:
+##### Answer:
  'b' + 'a' is a regular concatination which gives you 'ba'
  'ba' + + 'a' has a unary operator '+' which results in NaN (not a number) because it attempts to convert a operand to a number. This is then converted to a string when concatenated which results in baNaN
  Next 'baNaN' + 'a' results in 'baNaNa'a regular concatination
