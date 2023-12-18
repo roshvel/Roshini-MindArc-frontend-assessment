@@ -11,7 +11,7 @@ Both the exercises can be switched between each other using the tabs on the top 
 
 I faced some difficulties in loading the desktop banner, mobile banner and content images using the provided placeholder links. Therefore I added offline images to combat the issue in case that persists. If that problem persist when testing please uncomment the lines in the following file: frontendassessment\src\components\Ex-1.vue , line numbers: 32, 38, 44, 64, 74 and comment out the lines: 31, 37,43, 63, 73.
 
-#### Bonus Exercise:
+### Bonus Exercise:
 
 #### Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.
 
