@@ -1,40 +1,25 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+## Front end Assessment by Roshini Thangavel
+    using Vue JS
 
-Exercise 1
----
-Build a responsive page based on the designs.
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+### To Run the Project:
+    - npm install
+    - npm run serve
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+Both the exercises can be switched between each other using the tabs on the top of the screen
 
-##### Assets
-* Desktop banner - https://via.placeholder.com/1920x650
-* Mobile banner - https://via.placeholder.com/600x600
-* Content images - https://via.placeholder.com/400x300
+I faced some difficulties in loading the desktop banner, mobile banner and content images using the provided placeholder links. Therefore I added offline images to combat the issue in case that persists. If that problem persist when testing please uncomment the lines in the following file: frontendassessment\src\components\Ex-1.vue , line numbers: 32, 38, 44, 64, 74 and comment out the lines: 31, 37,43, 63, 73.
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+#### Bonus Exercise:
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+##### Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.
 
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+###### Answer:
+ 'b' + 'a' is a regular concatination which gives you 'ba'
+ 'ba' + + 'a' has a unary operator '+' which results in NaN (not a number) because it attempts to convert a operand to a number. This is then converted to a string when concatenated which results in baNaN
+ Next 'baNaN' + 'a' results in 'baNaNa'a regular concatination
+ This string is then converted to lower case using the .toLowerCase() function which results in the result 'banana'.
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+
+Thank you for considering my application!
+
