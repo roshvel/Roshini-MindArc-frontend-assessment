@@ -3,6 +3,7 @@
 
 
 ### To Run the Project:
+    -cd into the frontendassessment folder
     - npm install
     - npm run serve
 
